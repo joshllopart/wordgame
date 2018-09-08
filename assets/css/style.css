@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/Alex-Muench-Minimalist-Wallpaper-Desktop-1920x1080.png");
+    background-image: url(../images/Planets.jpg);
     background-size: cover;
 }
 
@@ -15,7 +15,7 @@ section {
 
     font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 60px;
-    color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
     margin-top:6%;
     margin-bottom:0;
     text-align: center;
@@ -27,7 +27,7 @@ section {
 .press {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
     margin-top:4%;
     margin-bottom:0;
     text-align: center;
@@ -37,7 +37,7 @@ section {
 .word {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
-    color: rgb(78, 78, 78);
+    color: rgb(255, 255, 255);
     margin-top:4%;
     margin-bottom:0;
     text-align: center;
@@ -50,9 +50,29 @@ section {
     text-align: center;
 }
 
-img {
+.rocket {
+    height:100px;
+    width:110px;
     margin-top:2%;
-    margin-left:46%;
+    margin-left:26%;
     /* position: center; */
     /* border-radius: 50%; */
+}
+
+#answer {
+
+    color: white;
+    font-size: 50px;
+    margin-left: 43%;
+    margin-top: 13%;
+    
+}
+
+#counter {
+
+    color: lightblue;
+    font-size: 22px;
+    margin-left: 10%;
+    margin-top: 30%;
+
 }

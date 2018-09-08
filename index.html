@@ -6,19 +6,34 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Hangman</title>
+        <title>Space Hangman</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="../Word Guess Game/assets/css/style.css">
+        <link rel="stylesheet" href="../Word-game/assets/css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
       
     </head>
-    <body>
-      <div class="container">
-        <h1 class="title">The Hangman</h1>
-        <img src="../Word Guess Game/assets/images/man.png" alt="Italian Trulli">
+    <body onload="startUp()">
+    <h1 class="title">The Space Hangman</h1>
+    <!-- <input id="letter" type="text"> -->
+    <input id="letter" onkeyup="letter()">
+    <!-- <input type="button" value="letter" onClick="letter()"/> -->
+    <img class="rocket" src="../Word-game/assets/images/rocket.png" alt="Italian Trulli">
+    <p id="answer"></p>
+    <p id="counter"></p>
+    <p id="stat"></p>
+
+    </body>
+
+      
+      
+      
+      
+      <!-- <div class="container">
+        <h1 class="title">The Space Hangman</h1>
+        <img src="../Word-game/assets/images/rocket.png" alt="Italian Trulli">
         <h1 class="press">Press Any Key to Get Started</h1>
         <div Class="word">_ _ _ _ _ _ _ _</div>
       </div>
@@ -34,18 +49,16 @@
               <div class="col">
                 Letters already Guessed
               </div>
-              <!-- <div class="col-sm">
-                One of three columns
-              </div> -->
+              
             </div>
           </div>
 
-        </section>
+        </section> -->
 
           
 
 
         
-        <script src="../Word Guess Game/assets/javascript/game.js" async defer></script>
+        <script src="../Word-game/assets/javascript/game.js" async defer></script>
     </body>
 </html>
