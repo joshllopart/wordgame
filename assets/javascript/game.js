@@ -10,25 +10,34 @@ var answerArray = [];
 
 
 
+
+
+
 //On KEY!!
 document.onkeyup = function(event){
-    var letter = event.key;
-    letter();
+var letter = event.key;
+console.log(letter.length)
+
+letterFunction(letter);
+
 }
 
-function startUp()
-{
+function startUp() {
     for (var i = 0; i < randomWord.length; i++)
     {
         answerArray[i] = "_";
     }
     s = answerArray.join(" ");
     document.getElementById("answer").innerHTML = s;
+    console.log(answerArray)
 }
 
-function letter()
-{
-    var letter = document.getElementById("letter") .value;
+
+
+
+function letterFunction(letter) {
+    // var letter = document.getElementById("letter").value;
+    console.log(letter)
 
     if (letter.length > 0)
     {
@@ -48,8 +57,10 @@ function letter()
     {
         document.getElementById("stat").innerHTML = "Come on - you should have guessed it by now";
     }
-
 }
+
+
+startUp()
 
 
 
