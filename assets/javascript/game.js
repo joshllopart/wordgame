@@ -7,7 +7,15 @@ var s;
 var count = 0;
 
 var answerArray = [];
-// Need more knoledge here
+
+
+
+//On KEY!!
+document.onkeyup = function(event){
+    var letter = event.key;
+    letter();
+}
+
 function startUp()
 {
     for (var i = 0; i < randomWord.length; i++)
